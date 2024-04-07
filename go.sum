@@ -1,0 +1,16 @@
+github.com/achetronic/tapogo v0.2.0 h1:eMyEPdZsEzKwacj43FihDRLJxfNX4YpiWb/eEmMyVTQ=
+github.com/achetronic/tapogo v0.2.0/go.mod h1:DVflSfbePg4SAjRy0aeMYJ0vj4Pjesw5sw6y4yP0f8w=
+github.com/choria-io/fisk v0.6.2 h1:Vfvpcv8SD53FHW5cT4u7LStpz/wThwRPQHU7mzv1kMI=
+github.com/choria-io/fisk v0.6.2/go.mod h1:PajiUZTAotE5zO18eU6UexuPLLv565WOma4dB0ObxRM=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=
+github.com/dustin/go-humanize v1.0.1/go.mod h1:Mu1zIs6XwVuF/gI1OepvI0qD18qycQx+mFykh5fBlto=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/richardjennings/tapo v0.0.2 h1:rc2X9DdVdDenC3+5eU8JCXeXTTWEavdiyJ0Wslb1KvI=
+github.com/richardjennings/tapo v0.0.2/go.mod h1:ZD5d0Yu/AjQEYnJi5ospFK/1A74DY5wQyAnoqlQnOWY=
+github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
+github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

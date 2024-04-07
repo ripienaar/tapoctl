@@ -1,0 +1,40 @@
+project_name: aht20
+
+release:
+  github:
+    owner: ripienaar
+    name: tapoctl
+  name_template: "Release {{.Version}}"
+  draft: true
+
+changelog:
+  skip: true
+
+builds:
+  - main: main.go
+    id: tapoctl
+    binary: tapoctl
+    env:
+      - GO111MODULE=on
+      - CGO_ENABLED=0
+    goos:
+      - linux
+    goarch:
+      - arm
+      - arm64
+      - amd64
+    goarm:
+      - "6"
+      - "7"
+
+archives:
+  - name_template: "tapoctl-{{.Version}}-{{.Os}}-{{.Arch}}{{if .Arm}}{{.Arm}}{{end}}"
+    wrap_in_directory: true
+    format: zip
+    files:
+      - README.md
+      - LICENSE
+
+checksum:
+  name_template: "SHA256SUMS"
+  algorithm: sha256
