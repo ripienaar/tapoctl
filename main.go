@@ -201,7 +201,7 @@ func energyCommand(_ *fisk.ParseContext) error {
 		fmt.Printf("     Today Energy: %.3fkWh\n", todayEnergy)
 		fmt.Printf("     Month Energy: %.3fkWh\n", monthEnergy)
 		fmt.Printf("    Today Runtime: %s\n", secondsToHuman(nfo.Result.TodayRuntime))
-		fmt.Printf("    Month Runtime: %s\n", secondsToHuman(nfo.Result.TodayRuntime))
+		fmt.Printf("    Month Runtime: %s\n", secondsToHuman(nfo.Result.MonthRuntime))
 	}
 
 	return nil
